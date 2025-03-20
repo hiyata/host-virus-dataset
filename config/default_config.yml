@@ -1,0 +1,76 @@
+# Default configuration for virus host classification
+
+# Paths
+paths:
+  raw_fasta_dir: "data/raw_fastas"
+  processed_fasta_dir: "data/processed_fastas"
+  kmer_features_dir: "data/kmer_features"
+  dataset_splits_dir: "data/dataset_splits"
+  results_dir: "results"
+
+# Feature generation parameters
+feature_generation:
+  k_values: [3, 4, 5, 6, 7, 8]
+  exclusion_keywords:
+    - "partial"
+    - "mutant"
+    - "unverified"
+    - "bac"
+    - "clone"
+  sequence_filters:
+    min_length: 500
+    max_length: 50000
+
+# Dataset splitting parameters
+dataset_splitting:
+  cluster_k: 6
+  proportions:
+    train: 0.8
+    validate: 0.1
+    test: 0.1
+  umap_components: 50
+  dbscan:
+    eps: 0.5
+    min_samples: 5
+
+# Training parameters
+training:
+  neural_network:
+    batch_size: 64
+    learning_rate: 1.0e-5
+    weight_decay: 1.0e-4
+    epochs: 60
+    patience: 3
+    label_smoothing: 0.1
+  logistic_regression:
+    max_iter: 1000
+    random_state: 12041997
+  random_forest:
+    n_estimators: 100
+    random_state: 12041997
+    max_depth: null
+    n_jobs: -1
+
+# Visualization parameters
+visualization:
+  tsne:
+    sample_size: 2000
+    perplexity: 30
+
+# Genome types for different virus families
+genome_types:
+  astroviridae: "ssRNA(+)"
+  picornaviridae: "ssRNA(+)"
+  flaviviridae: "ssRNA(+)"
+  sedoreoviridae: "dsRNA"
+  spinareoviridae: "dsRNA"
+  parvoviridae: "ssDNA"
+  togaviridae: "ssRNA(+)"
+  adenoviridae: "dsDNA"
+  orthoherpesviridae: "dsDNA"
+  orthomyxoviridae: "ssRNA(-)"
+  papillomaviridae: "dsDNA"
+  polyomaviridae: "dsDNA"
+  poxviridae: "dsDNA"
+  hepadnaviridae: "dsDNA-RT"
+  rhabdoviridae: "ssRNA(-)"

@@ -1,0 +1,67 @@
+# Configuration for custom classification tasks
+
+# This configuration shows how to set up different classification tasks
+# Copy this file and modify it for your specific needs
+
+# Host type classification (default)
+host_classification:
+  task: "host_type"
+  binary: true  # Binary classification (human vs non-human)
+  column: "host"  # Column in metadata containing label
+  positive_class: "Homo sapiens"  # For binary classification, positive class
+  mapping:
+    "Homo sapiens": 1
+    "human": 1
+    "man": 1
+    "woman": 1
+    "patient": 1
+    "*": 0  # All other hosts are non-human (default)
+
+# Family classification
+family_classification:
+  task: "family"
+  binary: false  # Multi-class classification
+  column: "family"
+  top_n: 5  # Only keep top N most frequent families, merge others as "other"
+  minimum_samples: 20  # Minimum samples per class
+
+# Vector/non-vector classification
+vector_classification:
+  task: "vector"
+  binary: true
+  column: "host"
+  positive_class: "vector"
+  mapping:
+    "Aedes aegypti": 1
+    "Aedes albopictus": 1
+    "Culex": 1
+    "mosquito": 1
+    "tick": 1
+    "Ixodes": 1
+    "arthropod": 1
+    "*": 0  # All non-vectors
+
+# Genome type classification
+genome_classification:
+  task: "genome_type"
+  binary: false
+  column: "family"
+  mapping:
+    "flaviviridae": "ssRNA(+)"
+    "herpesviridae": "dsDNA"
+    "orthomyxoviridae": "ssRNA(-)"
+    "coronaviridae": "ssRNA(+)"
+    "poxviridae": "dsDNA"
+    "parvoviridae": "ssDNA"
+    "retroviridae": "ssRNA-RT"
+    "hepadnaviridae": "dsDNA-RT"
+    "reoviridae": "dsRNA"
+
+# Custom classification
+custom_classification:
+  task: "custom"
+  binary: true
+  column: "custom_label"  # You need to add this column to your metadata
+  mapping:
+    "class_a": 1
+    "class_b": 0

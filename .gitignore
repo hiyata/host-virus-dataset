@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment and virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+
+# Project-specific
+*.h5
+*.pt
+*.pkl
+*.log
+
+# Exclude config
+!config/*.yml
+data/dataset_splits/k6/validate.h5
+src/data/examples/fasta/flaviviridae_sample.fasta
+data/dataset_splits/k6/train.h5
+data/dataset_splits/k5/train.h5
+data/dataset_splits/k6/test.h5
+results/experiment_data/dataset_statistics/dataset_changelog/versioned_datasets/CHANGELOG.txt
+*.h5
+*.fasta
+results/experiment_data/dataset_statistics/dataset_changelog/versioned_datasets/CHANGELOG.txt

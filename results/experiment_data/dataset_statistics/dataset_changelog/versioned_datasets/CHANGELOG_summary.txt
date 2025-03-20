@@ -1,0 +1,17 @@
+SUMMARY CHANGELOG generated on 2025-02-05 13:07:40
+
+Version 1.0.0: Columns added: 8, removed: 0; Rows added: 58055, removed: 0; Cells changed: 0
+Version 2.0.0: Columns added: 5, removed: 0; Rows added: 0, removed: 1240; Cells changed: 10732
+Version 3.0.0: Columns added: 0, removed: 3; Rows added: 1240, removed: 0; Cells changed: 0
+Version 3.0.1: Columns added: 0, removed: 0; Rows added: 0, removed: 200; Cells changed: 1
+Version 4.0.0: Columns added: 7, removed: 0; Rows added: 200, removed: 0; Cells changed: 230336
+Version 4.0.1: Columns added: 0, removed: 0; Rows added: 1, removed: 1; Cells changed: 311
+Version 4.0.2: Columns added: 0, removed: 0; Rows added: 0, removed: 0; Cells changed: 20
+Version 4.1.0: Columns added: 2, removed: 0; Rows added: 0, removed: 0; Cells changed: 233603
+Version 4.2.0: Columns added: 0, removed: 2; Rows added: 0, removed: 0; Cells changed: 232318
+Version 4.3.0: Columns added: 2, removed: 0; Rows added: 0, removed: 0; Cells changed: 232226
+Version 4.3.1: Columns added: 0, removed: 0; Rows added: 0, removed: 0; Cells changed: 290315
+Version 4.3.1: Columns added: 0, removed: 0; Rows added: 0, removed: 0; Cells changed: 0
+Version 4.4.0: Columns added: 0, removed: 1; Rows added: 0, removed: 0; Cells changed: 5559
+Version 4.5.0: Columns added: 1, removed: 0; Rows added: 0, removed: 0; Cells changed: 6
+Version 4.5.0: Columns added: 0, removed: 0; Rows added: 0, removed: 0; Cells changed: 0

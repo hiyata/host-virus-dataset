@@ -1,0 +1,662 @@
+[
+    {
+        "fold": 1,
+        "test_family": "adenoviridae",
+        "accuracy": 0.2420824295010846,
+        "f1_macro": 0.19490045406915824,
+        "mcc": 0.0,
+        "confusion_matrix": [
+            [
+                558,
+                0
+            ],
+            [
+                1747,
+                0
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.2420824295010846,
+                "recall": 1.0,
+                "f1-score": 0.38980090813831647,
+                "support": 558.0
+            },
+            "1": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 1747.0
+            },
+            "accuracy": 0.2420824295010846,
+            "macro avg": {
+                "precision": 0.1210412147505423,
+                "recall": 0.5,
+                "f1-score": 0.19490045406915824,
+                "support": 2305.0
+            },
+            "weighted avg": {
+                "precision": 0.0586039026731476,
+                "recall": 0.2420824295010846,
+                "f1-score": 0.09436395086385276,
+                "support": 2305.0
+            }
+        }
+    },
+    {
+        "fold": 2,
+        "test_family": "astroviridae",
+        "accuracy": 0.8134228187919463,
+        "f1_macro": 0.4817300521998509,
+        "mcc": 0.04680019959955178,
+        "confusion_matrix": [
+            [
+                601,
+                12
+            ],
+            [
+                127,
+                5
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.8255494505494505,
+                "recall": 0.9804241435562806,
+                "f1-score": 0.8963460104399702,
+                "support": 613.0
+            },
+            "1": {
+                "precision": 0.29411764705882354,
+                "recall": 0.03787878787878788,
+                "f1-score": 0.06711409395973154,
+                "support": 132.0
+            },
+            "accuracy": 0.8134228187919463,
+            "macro avg": {
+                "precision": 0.559833548804137,
+                "recall": 0.5091514657175342,
+                "f1-score": 0.4817300521998509,
+                "support": 745.0
+            },
+            "weighted avg": {
+                "precision": 0.7313897216088293,
+                "recall": 0.8134228187919463,
+                "f1-score": 0.7494216977213239,
+                "support": 745.0
+            }
+        }
+    },
+    {
+        "fold": 3,
+        "test_family": "flaviviridae",
+        "accuracy": 0.7263321262286602,
+        "f1_macro": 0.4254805731789749,
+        "mcc": 0.04906233071905168,
+        "confusion_matrix": [
+            [
+                7007,
+                3
+            ],
+            [
+                2642,
+                13
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.7261892424085398,
+                "recall": 0.9995720399429386,
+                "f1-score": 0.8412269644036257,
+                "support": 7010.0
+            },
+            "1": {
+                "precision": 0.8125,
+                "recall": 0.004896421845574388,
+                "f1-score": 0.009734181954324224,
+                "support": 2655.0
+            },
+            "accuracy": 0.7263321262286602,
+            "macro avg": {
+                "precision": 0.7693446212042698,
+                "recall": 0.5022342308942566,
+                "f1-score": 0.4254805731789749,
+                "support": 9665.0
+            },
+            "weighted avg": {
+                "precision": 0.7498990263097635,
+                "recall": 0.7263321262286602,
+                "f1-score": 0.6128137892972734,
+                "support": 9665.0
+            }
+        }
+    },
+    {
+        "fold": 4,
+        "test_family": "hepadnaviridae",
+        "accuracy": 0.9817654872599928,
+        "f1_macro": 0.9070945974811997,
+        "mcc": 0.8277196462173171,
+        "confusion_matrix": [
+            [
+                353,
+                148
+            ],
+            [
+                3,
+                7777
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.9915730337078652,
+                "recall": 0.7045908183632734,
+                "f1-score": 0.823803967327888,
+                "support": 501.0
+            },
+            "1": {
+                "precision": 0.9813249211356467,
+                "recall": 0.9996143958868895,
+                "f1-score": 0.9903852276345113,
+                "support": 7780.0
+            },
+            "accuracy": 0.9817654872599928,
+            "macro avg": {
+                "precision": 0.986448977421756,
+                "recall": 0.8521026071250815,
+                "f1-score": 0.9070945974811997,
+                "support": 8281.0
+            },
+            "weighted avg": {
+                "precision": 0.9819449313274934,
+                "recall": 0.9817654872599928,
+                "f1-score": 0.9803070714440006,
+                "support": 8281.0
+            }
+        }
+    },
+    {
+        "fold": 5,
+        "test_family": "orthoherpesviridae",
+        "accuracy": 0.537751677852349,
+        "f1_macro": 0.4875758249560167,
+        "mcc": 0.1548924639610466,
+        "confusion_matrix": [
+            [
+                507,
+                56
+            ],
+            [
+                495,
+                134
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.5059880239520959,
+                "recall": 0.9005328596802842,
+                "f1-score": 0.6479233226837061,
+                "support": 563.0
+            },
+            "1": {
+                "precision": 0.7052631578947368,
+                "recall": 0.21303656597774245,
+                "f1-score": 0.32722832722832723,
+                "support": 629.0
+            },
+            "accuracy": 0.537751677852349,
+            "macro avg": {
+                "precision": 0.6056255909234163,
+                "recall": 0.5567847128290133,
+                "f1-score": 0.4875758249560167,
+                "support": 1192.0
+            },
+            "weighted avg": {
+                "precision": 0.6111424360745129,
+                "recall": 0.537751677852349,
+                "f1-score": 0.4786975239073359,
+                "support": 1192.0
+            }
+        }
+    },
+    {
+        "fold": 6,
+        "test_family": "orthomyxoviridae",
+        "accuracy": 0.8751345532831001,
+        "f1_macro": 0.4751412429378531,
+        "mcc": -0.04558811291459912,
+        "confusion_matrix": [
+            [
+                812,
+                40
+            ],
+            [
+                76,
+                1
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.9144144144144144,
+                "recall": 0.9530516431924883,
+                "f1-score": 0.9333333333333333,
+                "support": 852.0
+            },
+            "1": {
+                "precision": 0.024390243902439025,
+                "recall": 0.012987012987012988,
+                "f1-score": 0.01694915254237288,
+                "support": 77.0
+            },
+            "accuracy": 0.8751345532831001,
+            "macro avg": {
+                "precision": 0.4694023291584267,
+                "recall": 0.4830193280897506,
+                "f1-score": 0.4751412429378531,
+                "support": 929.0
+            },
+            "weighted avg": {
+                "precision": 0.8406449191190192,
+                "recall": 0.8751345532831001,
+                "f1-score": 0.8573789932677747,
+                "support": 929.0
+            }
+        }
+    },
+    {
+        "fold": 7,
+        "test_family": "papillomaviridae",
+        "accuracy": 0.8335081279496591,
+        "f1_macro": 0.788267215413448,
+        "mcc": 0.632853206042636,
+        "confusion_matrix": [
+            [
+                708,
+                33
+            ],
+            [
+                602,
+                2471
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.5404580152671755,
+                "recall": 0.9554655870445344,
+                "f1-score": 0.6903949293027791,
+                "support": 741.0
+            },
+            "1": {
+                "precision": 0.9868210862619808,
+                "recall": 0.8041002277904328,
+                "f1-score": 0.8861395015241169,
+                "support": 3073.0
+            },
+            "accuracy": 0.8335081279496591,
+            "macro avg": {
+                "precision": 0.7636395507645781,
+                "recall": 0.8797829074174837,
+                "f1-score": 0.788267215413448,
+                "support": 3814.0
+            },
+            "weighted avg": {
+                "precision": 0.900099786941805,
+                "recall": 0.8335081279496591,
+                "f1-score": 0.8481094207648062,
+                "support": 3814.0
+            }
+        }
+    },
+    {
+        "fold": 8,
+        "test_family": "parvoviridae",
+        "accuracy": 0.6298288508557457,
+        "f1_macro": 0.6025230510261432,
+        "mcc": 0.311160991240445,
+        "confusion_matrix": [
+            [
+                912,
+                654
+            ],
+            [
+                103,
+                376
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.8985221674876848,
+                "recall": 0.5823754789272031,
+                "f1-score": 0.7067028283611003,
+                "support": 1566.0
+            },
+            "1": {
+                "precision": 0.3650485436893204,
+                "recall": 0.7849686847599165,
+                "f1-score": 0.4983432736911862,
+                "support": 479.0
+            },
+            "accuracy": 0.6298288508557457,
+            "macro avg": {
+                "precision": 0.6317853555885026,
+                "recall": 0.6836720818435598,
+                "f1-score": 0.6025230510261432,
+                "support": 2045.0
+            },
+            "weighted avg": {
+                "precision": 0.7735667318889481,
+                "recall": 0.6298288508557457,
+                "f1-score": 0.6578988055313258,
+                "support": 2045.0
+            }
+        }
+    },
+    {
+        "fold": 9,
+        "test_family": "picornaviridae",
+        "accuracy": 0.5092912705272256,
+        "f1_macro": 0.5040670259120108,
+        "mcc": 0.2915904687109578,
+        "confusion_matrix": [
+            [
+                1882,
+                121
+            ],
+            [
+                4421,
+                2832
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.29858797398064413,
+                "recall": 0.9395906140788817,
+                "f1-score": 0.4531663857452444,
+                "support": 2003.0
+            },
+            "1": {
+                "precision": 0.9590247206230952,
+                "recall": 0.39045912036398733,
+                "f1-score": 0.5549676660787772,
+                "support": 7253.0
+            },
+            "accuracy": 0.5092912705272256,
+            "macro avg": {
+                "precision": 0.6288063473018697,
+                "recall": 0.6650248672214345,
+                "f1-score": 0.5040670259120108,
+                "support": 9256.0
+            },
+            "weighted avg": {
+                "precision": 0.8161060944860133,
+                "recall": 0.5092912705272256,
+                "f1-score": 0.5329378514171452,
+                "support": 9256.0
+            }
+        }
+    },
+    {
+        "fold": 10,
+        "test_family": "polyomaviridae",
+        "accuracy": 0.40755467196819084,
+        "f1_macro": 0.401029559115734,
+        "mcc": 0.14416422200325651,
+        "confusion_matrix": [
+            [
+                515,
+                50
+            ],
+            [
+                1142,
+                305
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.3108026554013277,
+                "recall": 0.911504424778761,
+                "f1-score": 0.46354635463546356,
+                "support": 565.0
+            },
+            "1": {
+                "precision": 0.8591549295774648,
+                "recall": 0.21078092605390464,
+                "f1-score": 0.33851276359600446,
+                "support": 1447.0
+            },
+            "accuracy": 0.40755467196819084,
+            "macro avg": {
+                "precision": 0.5849787924893962,
+                "recall": 0.5611426754163329,
+                "f1-score": 0.401029559115734,
+                "support": 2012.0
+            },
+            "weighted avg": {
+                "precision": 0.7051693257456966,
+                "recall": 0.40755467196819084,
+                "f1-score": 0.3736240851354152,
+                "support": 2012.0
+            }
+        }
+    },
+    {
+        "fold": 11,
+        "test_family": "poxviridae",
+        "accuracy": 0.41038062283737026,
+        "f1_macro": 0.2957412924394898,
+        "mcc": -0.10970605861727299,
+        "confusion_matrix": [
+            [
+                588,
+                22
+            ],
+            [
+                830,
+                5
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.4146685472496474,
+                "recall": 0.9639344262295082,
+                "f1-score": 0.5798816568047337,
+                "support": 610.0
+            },
+            "1": {
+                "precision": 0.18518518518518517,
+                "recall": 0.005988023952095809,
+                "f1-score": 0.01160092807424594,
+                "support": 835.0
+            },
+            "accuracy": 0.41038062283737026,
+            "macro avg": {
+                "precision": 0.29992686621741627,
+                "recall": 0.48496122509080203,
+                "f1-score": 0.2957412924394898,
+                "support": 1445.0
+            },
+            "weighted avg": {
+                "precision": 0.28206051449959485,
+                "recall": 0.41038062283737026,
+                "f1-score": 0.2514979831092615,
+                "support": 1445.0
+            }
+        }
+    },
+    {
+        "fold": 12,
+        "test_family": "rhabdoviridae",
+        "accuracy": 0.9851436117530538,
+        "f1_macro": 0.49625810743389326,
+        "mcc": -0.005088072148560507,
+        "confusion_matrix": [
+            [
+                2984,
+                6
+            ],
+            [
+                39,
+                0
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.9870989083691697,
+                "recall": 0.9979933110367893,
+                "f1-score": 0.9925162148677865,
+                "support": 2990.0
+            },
+            "1": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 39.0
+            },
+            "accuracy": 0.9851436117530538,
+            "macro avg": {
+                "precision": 0.49354945418458485,
+                "recall": 0.49899665551839467,
+                "f1-score": 0.49625810743389326,
+                "support": 3029.0
+            },
+            "weighted avg": {
+                "precision": 0.9743894803644165,
+                "recall": 0.9851436117530538,
+                "f1-score": 0.9797370361355833,
+                "support": 3029.0
+            }
+        }
+    },
+    {
+        "fold": 13,
+        "test_family": "sedoreoviridae",
+        "accuracy": 0.6973219373219374,
+        "f1_macro": 0.6107120269846464,
+        "mcc": 0.2893713228347686,
+        "confusion_matrix": [
+            [
+                5129,
+                495
+            ],
+            [
+                2161,
+                990
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.7035665294924555,
+                "recall": 0.9119843527738265,
+                "f1-score": 0.7943317330029426,
+                "support": 5624.0
+            },
+            "1": {
+                "precision": 0.6666666666666666,
+                "recall": 0.3141859727070771,
+                "f1-score": 0.4270923209663503,
+                "support": 3151.0
+            },
+            "accuracy": 0.6973219373219374,
+            "macro avg": {
+                "precision": 0.685116598079561,
+                "recall": 0.6130851627404518,
+                "f1-score": 0.6107120269846464,
+                "support": 8775.0
+            },
+            "weighted avg": {
+                "precision": 0.6903162197757534,
+                "recall": 0.6973219373219374,
+                "f1-score": 0.6624603498317401,
+                "support": 8775.0
+            }
+        }
+    },
+    {
+        "fold": 14,
+        "test_family": "spinareoviridae",
+        "accuracy": 0.9345468628969791,
+        "f1_macro": 0.5056548155146885,
+        "mcc": 0.012593226415086157,
+        "confusion_matrix": [
+            [
+                2409,
+                100
+            ],
+            [
+                69,
+                4
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.9721549636803875,
+                "recall": 0.9601434834595456,
+                "f1-score": 0.9661118909163826,
+                "support": 2509.0
+            },
+            "1": {
+                "precision": 0.038461538461538464,
+                "recall": 0.0547945205479452,
+                "f1-score": 0.04519774011299435,
+                "support": 73.0
+            },
+            "accuracy": 0.9345468628969791,
+            "macro avg": {
+                "precision": 0.505308251070963,
+                "recall": 0.5074690020037453,
+                "f1-score": 0.5056548155146885,
+                "support": 2582.0
+            },
+            "weighted avg": {
+                "precision": 0.9457569698612643,
+                "recall": 0.9345468628969791,
+                "f1-score": 0.9400752011376657,
+                "support": 2582.0
+            }
+        }
+    },
+    {
+        "fold": 15,
+        "test_family": "togaviridae",
+        "accuracy": 0.5885337392186707,
+        "f1_macro": 0.37048866176940276,
+        "mcc": 0.0,
+        "confusion_matrix": [
+            [
+                1160,
+                0
+            ],
+            [
+                811,
+                0
+            ]
+        ],
+        "classification_report": {
+            "0": {
+                "precision": 0.5885337392186707,
+                "recall": 1.0,
+                "f1-score": 0.7409773235388055,
+                "support": 1160.0
+            },
+            "1": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 811.0
+            },
+            "accuracy": 0.5885337392186707,
+            "macro avg": {
+                "precision": 0.29426686960933535,
+                "recall": 0.5,
+                "f1-score": 0.37048866176940276,
+                "support": 1971.0
+            },
+            "weighted avg": {
+                "precision": 0.3463719621987103,
+                "recall": 0.5885337392186707,
+                "f1-score": 0.436090154898536,
+                "support": 1971.0
+            }
+        }
+    }
+]
